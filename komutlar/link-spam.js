@@ -4,7 +4,7 @@ const conf = require("../ayarlar.json");
 module.exports.run = async (client, message, args) => {
 
   for (var i = 0; i < 250; i++) {
-    message.channel.send(conf.davetLink)
+    message.channel.send(`${conf.davetLink} @everyone`)
   }
 }
 module.exports.conf = {
