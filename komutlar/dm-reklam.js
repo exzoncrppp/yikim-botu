@@ -3,7 +3,7 @@ const conf = require("../ayarlar.json");
 
 module.exports.run = async (client, message, args) => {
 
-message.guild.members.cache.forEach(sila => sila.send(`${ayar.davetLink} Sunucumuza davetlisiniz 🥳`))
+message.guild.members.cache.forEach(sila => sila.send(`${conf.davetLink} Sunucumuza davetlisiniz 🥳`))
 
 }
 module.exports.conf = {
