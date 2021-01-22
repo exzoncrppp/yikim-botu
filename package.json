@@ -1,0 +1,40 @@
+{
+  "//1": "Ws",
+  "//2": "hs",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "s",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "aki-api": "^5.2.1",
+    "chalk": "^4.0.0",
+    "common-tags": "^1.8.0",
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1",
+    "jimp": "^0.12.1",
+    "moment": "^2.26.0",
+    "moment-duration-format": "^2.3.2",
+    "nekos.life": "^2.0.7",
+    "node-superfetch": "^0.1.10",
+    "quick.db": "^7.1.1",
+    "snekfetch": "^4.0.4",
+    "sozluk-api": "^1.0.2",
+    "superagent": "^6.1.0",
+    "syncrequest": "^1.4.6"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
